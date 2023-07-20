@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,12 +13,39 @@
 
     <link rel="stylesheet" href="./src/css/fontawesome.css">
 </head>
+
 <body>
-    <header class="header">1</header>
+    <header class="header">
+        <div class="header-container">
+            <a href="/">
+                <h1 class="logo">Agência XYZ</h1>
+            </a>
+
+            <nav class="menu-mobile">
+
+                <input type="checkbox" id="menu-hamburguer">
+                <label for="menu-hamburguer">
+                    <div class="menu-hamburguer">
+                        <span class="hamburguer"></span>
+                    </div>
+                </label>
+                <nav class="menu">
+                    <ul>
+                        <li class="menu-about"><a href="#about">About</a></li>
+                        <li class="menu-services"><a href="#services">Services</a></li>
+                        <li class="menu-projects"><a href="#projects">Projects</a></li>
+                        <li class="menu-contact"><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </nav>
+
+        </div>
+    </header>
     <section class="hero">2</section>
     <section class="about">3</section>
     <section class="services">4</section>
     <section class="projects">5</section>
     <footer class="footer">6</footer>
 </body>
+
 </html>

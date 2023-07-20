@@ -1,0 +1,27 @@
+@media (max-width: 900px) {
+    .header nav ul {
+        display: none;
+    }
+    .header .menu-hamburguer {
+        display: block;
+    }
+    .header input:checked ~ nav ul {
+        display: absolute;
+    }
+    .header nav{
+        position: block;
+        top: 8px;
+        right: 0;
+        z-index: 1;
+    }
+    .header nav ul {
+        width: 200px;
+        background-color: #ffffff;
+        padding: 20px;
+    }
+    .header nav ul a{
+        text-align: center;
+        padding: 20px;
+        display: block;
+    }
+}

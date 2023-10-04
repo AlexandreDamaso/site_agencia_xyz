@@ -36,28 +36,33 @@ body {
 .header a:hover h1 {
     color: coral;
 }
-
 .header nav ul {
     display: flex;
 }
-.header .menu a {
+.header nav a {
     font-size: 2rem;
     font-weight: 500;
     padding: 10px 30px;
     border-radius: 50px;
     transition: 0.3s;
 }
-.header .menu a:hover {
+.header nav a:hover {
     color: #ffffff;
     background-color: coral;
 }
 
-/* MENU HAMBURGUER - INICIO */
+/* MENU HAMBURGUER - INICIO - ##### ##### ##### ##### ##### ##### */
 
-.header .menu-hamburguer {
+
+.header .menu {
     display: none;
     width: 60px;
     height: 60px;
+    align-self: flex-end;
+}
+.header nav label{
+    display: flex;
+    flex-direction: column;
 }
 .header .hamburguer {
     background-color: #000000;
@@ -100,7 +105,7 @@ body {
     bottom: 0;
 }
 
-/* MENU HAMBURGUER - FIM */
+/* MENU HAMBURGUER - FIM - ##### ##### ##### ##### ##### ##### */
 
 
 /* HERO */
